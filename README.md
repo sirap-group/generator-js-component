@@ -22,13 +22,28 @@ A generator to scaffold node/browser javascript modules, published as javascript
 
 ## Prerequisites
 
-To run the generator, you need to get `npm` and `Yeoman CLI` installed.
+To run the generator, you need to get `npm` and `yeoman` installed.
 
-You can check if yeoman is available on your system:
+### npm
+
+You can check if `npm` is installed:
+
+    $ npm --version
+
+If the command is not found, `npm` is not installed on the system or for your user.
+We recommand using `nvm` (Node Version Manager) to manage installations and versions of `node` and `npm`.
+
+    $ nvm --version
 
     $ yo --version
 
-If not, you must install it.
+If not, you must install `npm` then yeoman (`yo`):
+
+    $ nvm install lts/argon
+    $ nvm alias lts/argon
+    $ nvm use default
+
+Then
 
     $ npm install --global yo
 
