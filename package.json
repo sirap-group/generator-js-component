@@ -1,6 +1,6 @@
 {
   "name": "generator-js-component",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A generator to scaffold node/browser javascript modules, published as javascript components.",
   "homepage": "https://github.com/sirap-group/generator-js-component#readme",
   "author": {
