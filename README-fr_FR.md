@@ -1,6 +1,6 @@
 # generator-js-component
 
->>> This is a Work In Progress (WIP)
+>>> Il s'agit d'un développement en cours (WIP)
 
 [![NPM version][npm-image]][npm-url]
 [![npm][npm-image-2]][npm-url-2]
@@ -17,35 +17,34 @@
 
 <!-- [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000?style=plastic)](https://github.com/sirap-group/generator-js-component) -->
 
+## De quoi s'agit il ?
 
-## What is it about ?
+Un générateur pour initialiser des modules javascript pour node.js ou pour le navigateur, publiés sous forme de paquets javascript npm et bower.
 
-A generator to scaffold node/browser javascript modules, published as javascript components.
+## Prérequis
 
-## Prerequisites
-
-To run the generator, you need to get `npm` and `yeoman` installed.
+Pour pouvoir lancer le générateur, vous avez besoin d'avoir installé `npm` et `yeoman`.
 
 ### npm
 
-You can check if `npm` is installed:
+Vous pouvez vérifier si `npm` est installé:
 
     $ npm --version
 
-If the command is not found, `npm` is not installed on the system or for your user.
-We recommand using `nvm` (Node Version Manager) to manage installations and versions of `node` and `npm`.
+Si la  commande n'est pas trouvée, `npm` n'est pas installé sur le système ou pour votre utilisateur.
+Nous recommandons d'utiliser `nvm` (Node Version Manager) pour gérer les installations et les versions de `node` et de `npm`.
 
     $ nvm --version
 
     $ yo --version
 
-If not, you must install `npm` then yeoman (`yo`):
+Sinon, vous devez commencer par installer `npm` puis yeoman (`yo`) :
 
     $ nvm install lts/argon
-    $ nvm alias lts/argon
+    $ nvm alias default lts/argon
     $ nvm use default
 
-Then
+Puis
 
     $ npm install --global yo
 
@@ -53,18 +52,18 @@ Then
 
     $ npm install --global generator-js-component
 
-## Usage
+## Utilisation
 
-To generate your javascript component:
+Pour générer votre composant javascript :
 
     $ yo js-component
 
-## License
+## Licence
 
 MIT © 2016 [Rémi Becheras]/[Groupe SIRAP]
 
 
-<!-- external references  -->
+<!-- Références externes  -->
 
 [Rémi Becheras]:https://github.com/rbecheras
 [Groupe SIRAP]:https://github.com/sirap-group
