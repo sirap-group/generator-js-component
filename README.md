@@ -1,5 +1,7 @@
 # generator-js-component
 
+>>> This is a Work In Progress (WIP)
+
 [![NPM version][npm-image]][npm-url]
 [![npm][npm-image-2]][npm-url-2]
 [![GitHub tag][github-badge]][github-repo-url]
